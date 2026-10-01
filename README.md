@@ -58,7 +58,6 @@ Cited Final Report
 
 ### Video Demonstration (1.5 Minutes)
 - 🎥 **Full 1.5-Minute Demonstration Video (MP4):** [`docs/video/nexora_demo_walkthrough.mp4`](docs/video/nexora_demo_walkthrough.mp4) *(Broadcast-quality 1080p, exactly 90.0 seconds walkthrough explaining functionality, end-to-end pipeline, code in action, and pytest suite)*
-- 🎬 **Synchronized 90-Second Animated Walkthrough (WebP):** [`docs/video/nexora_demo_walkthrough.webp`](docs/video/nexora_demo_walkthrough.webp) *(Full 90-second animated recording for instant in-browser playback)*
 
 ### Interface Screenshots
 
