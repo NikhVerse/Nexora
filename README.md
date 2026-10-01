@@ -54,7 +54,31 @@ Cited Final Report
 
 ---
 
-## 4. Architecture & Tech Stack
+## 4. Visual Documentation & Demonstration
+
+### Video Walkthrough
+- 🎥 **Interactive Video Demonstration:** [`docs/video/nexora_demo_walkthrough.webp`](docs/video/nexora_demo_walkthrough.webp) *(Recorded interactive browser session showing full research pipeline, planner editing, evidence verification, and citation inspection)*
+
+### Interface Screenshots
+
+| 1. Landing Page & Inquiry Input | 2. Autonomous Research Planner |
+|:---:|:---:|
+| ![Landing Page](docs/screenshots/01_landing_page.png) | ![Research Planner](docs/screenshots/02_research_planner.png) |
+| *Minimalist inquiry input with Quick/Standard/Deep depth modes* | *Editable sub-questions, objectives, and research dimensions* |
+
+| 3. Final Report & Cited Document Workspace | 4. Source Discovery & Priority Hierarchy |
+|:---:|:---:|
+| ![Final Report](docs/screenshots/03_final_report_workspace.png) | ![Source Discovery](docs/screenshots/04_sources_view.png) |
+| *Traceable report with interactive citation panels* | *Government, academic, and technical sources sorted by credibility* |
+
+| 5. Structured Evidence & Verification Badges | 6. Contradiction & Trade-Off Analysis |
+|:---:|:---:|
+| ![Evidence Cards](docs/screenshots/05_evidence_cards.png) | ![Contradiction Analysis](docs/screenshots/06_contradictions_view.png) |
+| *Claims categorized into Fact, Interpretation, and Inference* | *Context-dependent divergence between lab tests & telemetry* |
+
+---
+
+## 5. Architecture & Tech Stack
 
 ```text
 Nexora/
