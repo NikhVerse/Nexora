@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+* { box-sizing: border-box; }
+
+/* ─── Light Theme ─── */
+:root {
+  --sidebar-bg:     #f9f9f9;
+  --sidebar-hover:  #efefef;
+  --sidebar-active: #e5e5e5;
+  --sidebar-border: #e5e5e5;
+  --sidebar-text:   #0d0d0d;
+  --sidebar-muted:  #6e6e80;
+
+  --bg:             #ffffff;
+  --surface:        #f4f4f5;
+  --surface-2:      #ececec;
+  --border:         #e4e4e7;
+  --border-strong:  #d4d4d8;
+
+  --text:           #0d0d0d;
+  --text-2:         #3f3f46;
+  --text-muted:     #71717a;
+
+  --input-bg:       #f4f4f5;
+  --input-border:   #e4e4e7;
+
+  --accent:         #10a37f;
+  --accent-hover:   #0e9070;
+  --accent-text:    #ffffff;
+
+  --btn-primary-bg: #0d0d0d;
+  --btn-primary-text: #ffffff;
+
+  --badge-verified-bg:   #dcfce7;
+  --badge-verified-text: #15803d;
+  --badge-conflict-bg:   #fee2e2;
+  --badge-conflict-text: #dc2626;
+  --badge-partial-bg:    #fef9c3;
+  --badge-partial-text:  #b45309;
+  --badge-weak-bg:       #f3f4f6;
+  --badge-weak-text:     #6b7280;
+  --badge-unverified-bg: #f3f4f6;
+  --badge-unverified-text: #6b7280;
+}
+
+/* ─── Dark Theme ─── */
+.dark {
+  --sidebar-bg:     #171717;
+  --sidebar-hover:  #262626;
+  --sidebar-active: #2f2f2f;
+  --sidebar-border: #2a2a2a;
+  --sidebar-text:   #ececec;
+  --sidebar-muted:  #8e8ea0;
+
+  --bg:             #212121;
+  --surface:        #2f2f2f;
+  --surface-2:      #3a3a3a;
+  --border:         #3f3f3f;
+  --border-strong:  #565869;
+
+  --text:           #ececec;
+  --text-2:         #b4b4b4;
+  --text-muted:     #8e8ea0;
+
+  --input-bg:       #2f2f2f;
+  --input-border:   #3f3f3f;
+
+  --accent:         #10a37f;
+  --accent-hover:   #0e9070;
+  --accent-text:    #ffffff;
+
+  --btn-primary-bg: #ececec;
+  --btn-primary-text: #0d0d0d;
+
+  --badge-verified-bg:   #14532d33;
+  --badge-verified-text: #4ade80;
+  --badge-conflict-bg:   #7f1d1d33;
+  --badge-conflict-text: #f87171;
+  --badge-partial-bg:    #78350f33;
+  --badge-partial-text:  #fbbf24;
+  --badge-weak-bg:       #27272a;
+  --badge-weak-text:     #a1a1aa;
+  --badge-unverified-bg: #27272a;
+  --badge-unverified-text: #71717a;
+}
+
+body {
+  margin: 0; padding: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  line-height: 1.65;
+  transition: background 0.2s, color 0.2s;
+}
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--border-strong); }
